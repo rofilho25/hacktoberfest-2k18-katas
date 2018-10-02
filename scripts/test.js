@@ -26,7 +26,6 @@ function runCommand(command, argv) {
   const { status } = spawnSync(command, argv, { stdio: 'inherit' });
   return status;
 }
-
 seeChangedFiles(files => {
   const modifiedImplemFiles = filter(files, {
     isModified: true,

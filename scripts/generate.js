@@ -4,6 +4,7 @@ const path = require('path');
 const fs = require('fs');
 const inquirer = require('inquirer');
 
+
 inquirer
   .prompt({
     type: 'input',
